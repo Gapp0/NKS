@@ -8,7 +8,7 @@ def var6(p1, p2, p3, p4, p5, p6, p7):
     r67 = 1 - (1 - p6) * (1 - p7)
     s1 = r134 * r56
     s2 = r23 * r57
-    ss = s1 * s2
+    ss = 1 - (1 - s1) * (1 - s2)
     t = r12 * ss * r67
     return t
 
