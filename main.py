@@ -41,7 +41,7 @@ G_q_1 = Q_reserved_system_1 / Q_system
 G_p_1 = P_reserved_system_1 / P_system
 G_t_1 = T_reserved_system_1 / T_system
 
-Q_reserved_system_2 = Q_system / math.factorial(k1 + 1)
+Q_reserved_system_2 = Q_system ** 4 / math.factorial(k1 + 1)
 P_reserved_system_2 = 1 - Q_reserved_system_2
 T_reserved_system_2 = -time / math.log(P_reserved_system_2, math.e)
 G_q_2 = Q_reserved_system_2 / Q_system
